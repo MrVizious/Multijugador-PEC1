@@ -17,6 +17,8 @@ Trabajo realizado por Javier Riera
 
 ### Minimapa
 
+- El minimapa solo aparece cuando hay 3 jugadores a la vez. Usa una cámara ortográfica en lo alto apuntando hacia abajo que renderiza la escena entera. A la hora de ajustar los cambios de distribución de las pantallas, se decide si ha de mostrarse el minimapa o no.
+
 ### Menú de inicio sencillo
 
 - Se ha añadido un menú de inicio con 3 botones con los que poder iniciar el juego: 2, 3 y 4 jugadores, para hacerlo muy sencillo de usar.
