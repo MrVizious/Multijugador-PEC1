@@ -15,6 +15,10 @@ Trabajo realizado por Javier Riera
 
 ## Opcional
 
+### Minimapa
+
+### Menú de inicio sencillo
+
 - Se ha añadido un menú de inicio con 3 botones con los que poder iniciar el juego: 2, 3 y 4 jugadores, para hacerlo muy sencillo de usar.
 
 # Posibles errores
