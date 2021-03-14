@@ -19,6 +19,7 @@ namespace Complete
         private int numberOfActiveTanks = 2;
         public float horizontalOffset = 0.11f;
         public Camera mainCam;
+        public GameObject minimap;
 
 
         private int m_RoundNumber;                  // Which round the game is currently on
@@ -106,6 +107,7 @@ namespace Complete
             //Debug.Log("Rect for " + i + " is: " + newRect);
             if (numberOfActiveTanks == 2)
             {
+                minimap.SetActive(false);
                 for (int i = 0, count = 0; i < numberOfPlayers && count < 2; i++)
                 {
                     if (m_Tanks[i].m_Instance.activeSelf)
@@ -128,6 +130,7 @@ namespace Complete
             }
             else if (numberOfActiveTanks == 3)
             {
+                minimap.SetActive(true);
                 for (int i = 0, count = 0; i < numberOfPlayers && count < 3; i++)
                 {
                     if (m_Tanks[i].m_Instance.activeSelf)
@@ -136,7 +139,7 @@ namespace Complete
 
                         if (count == 0)
                         {
-                            newRect = new Rect(0f, 0.5f, 1f, 0.5f);
+                            newRect = new Rect(0f, 0.5f, 0.5f, 0.5f);
                         }
                         else if (count == 1)
                         {
@@ -154,6 +157,7 @@ namespace Complete
             }
             else if (numberOfActiveTanks == 4)
             {
+                minimap.SetActive(false);
                 for (int i = 0, count = 0; i < numberOfPlayers && count < 4; i++)
                 {
                     if (m_Tanks[i].m_Instance.activeSelf)

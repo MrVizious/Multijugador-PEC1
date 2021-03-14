@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1004a77588b78855babbe0936258fd93, type: 3}
   m_Name: LevelData
   m_EditorClassIdentifier: 
-  numberOfPlayers: 0
+  numberOfPlayers: 2
